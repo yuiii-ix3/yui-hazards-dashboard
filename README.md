@@ -14,26 +14,7 @@ Current MVP:
 - recent time window filter (7 / 30 / 90 days)
 - stable Tailnet-served static build on port `3016`
 
-## Local paths
-
-Project folder:
-- `/home/azhar/github-projects/yui-hazards-dashboard/`
-
-Tailnet URL:
-- `http://100.74.64.1:3016/`
-
-User service:
-- `systemctl --user status yui-hazards-dashboard.service`
-
 ## Build / serve
-
-Rebuild the static app:
-
-```bash
-cd /home/azhar/github-projects/yui-hazards-dashboard
-npm run build
-systemctl --user restart yui-hazards-dashboard.service
-```
 
 Build-time cache generators now produce:
 - `public/bmkg-weather.json`
