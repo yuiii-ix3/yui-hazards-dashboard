@@ -1,0 +1,12 @@
+html {
+  color-scheme: dark;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+select {
+  font: inherit;
+}
